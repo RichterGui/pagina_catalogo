@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #eff1f1;
+}
+
+
+main{
+    margin: 0 10rem;
+}
+
+
+
+/* Header style ==========================================================*/
+header{
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6d5745;
+
+}
+
+
+
+.logo_top_container{
+    width: 6rem;
+    height: 4rem;
+}
+
+
+.header_list{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+.header_list  a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+
+}
+
+.header_item{
+    list-style: none;
+}
+
+
+/* Footer Style */
+
+footer{
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(46, 44, 44);
+
+}
+
+
+.logo_bot_container{
+    width: 6rem;
+    height: 4rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.fb_icon{
+    background-size: 10px 10px;
+}
+
+
+/* Main About =============================================================== */
+
+.about_us{
+    margin: 5rem 0;
+}
+
+.about_title{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+.about_p{
+    line-height: 1.2em;
+    text-transform: lowercase;
+    padding-bottom: 0.5rem;
+}
+
+.about_p::first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 2em;
+}
+
+
+
+.about_img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+    margin-top: 1rem;
+}
+
+.img_container img {
+    max-width: 40vw;
+    max-height: 20rem;
+    width: auto;
+    height: auto;
+}
+
+
+
+/* Produtos======================================================= */
+
+.products{
+    background-color: #c0b0a2;
+    background-size: 100vw;
+}
+
+.products_heading{
+    text-align: center;
+    margin: 7em 0 4em;
+    padding-top: 1em;
+}
+
+.products_heading h3{
+    padding-bottom: .8em;
+}
+
+.product_items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product_case{
+    display: flex;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 10px;
+    margin: 0px 20px 20px 0;
+}
+
+.product_desc{
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.product_img_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.product_img_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.product_img img, .product_img{
+    width: 100%;
+    height: 100%;
+}
+
+.product_img  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.social_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Contato ======================================================== */
+
+.contact{
+margin: 1rem 0 5rem 0;
+}
+
+.contact_box{
+    display: flex;
+    justify-content:center;
+}
+
+.contact h3{
+    text-align: center;
+    font-size:x-large;
+    margin: 4rem 0 4rem 0;
+}
+
+.contact_add{
+    padding-right: 3rem;
+}
+
+#map { 
+    height: 20rem; 
+    width: 100%;;
+    margin-top: 10px;
+
+}
+
+
+form input:not(:last-child){
+    border: 1px solid rgb(90, 89, 89);
+    padding-left: 10px;
+    margin-bottom: .5rem;
+
+}
+
+.i_name{
+    width: 100%;
+}
+
+.i_tel{
+    width: 48%;
+}
+
+.i_mail{
+    width: 48%;
+}
+
+.i_text{
+    width: 100%;
+}
+
+.i_submit{
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.i_submit:hover{
+    background-color: #6d5745;
+    transition: 500ms;
+}
+
+
+@media screen and (max-width:750px){
+    body{
+        width: 105%;
+    }
+
+    main{
+        margin: 2rem;
+    } 
+
+    header{
+        height:10rem;
+    }
+
+    .header_list{
+        flex-direction: column;
+    }
+
+    .about_img{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img_container img {
+        max-width: 80vw;
+        max-height: 30rem;
+    }
+
+    .products{
+        background-color: unset;
+    }
+
+    .contact_box{
+        flex-direction: column;
+    }
+    
+    .formulary{
+        margin-top: 2rem;
+    }
+
+    .i_name{
+        width: 90%;
+    }
+    
+    .i_tel{
+        width: 90%;
+    }
+    
+    .i_mail{
+        width: 90%;
+    }
+    
+    .i_text{
+        width: 92%;
+    }
+    
+}

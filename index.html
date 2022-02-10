@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scherer Couros</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+	crossorigin=""/>
+</head>
+
+<body>
+
+	<header>
+		<div class="logo_top_container">
+			<img class="logo_top" src="./assets/sc_black.svg" alt="">
+		</div>
+
+		<div>
+			<ul class="header_list">
+				<li class="header_item"><a href="#">Inicio</a> </li>
+				<li class="header_item"><a href="#nav-about">A Empresa</a></li>
+				<li class="header_item"><a href="#nav-products">Produtos</a></li>
+				<li class="header_item"><a href="#nav-contact">Contato</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+	<main>
+		<section class="about_us" id="nav-about">
+			<h2 class="about_title">Sobre Nós</h2>
+			<div>
+				<p class="about_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius magna nulla, eu
+					iaculis mauris condimentum quis. Nunc vulputate odio augue, a mattis quam vulputate at. Etiam
+					tincidunt hendrerit turpis, vel lobortis risus tincidunt sed. Praesent lobortis tempus dolor. Etiam
+					auctor bibendum sodales. Suspendisse aliquet interdum blandit. Nunc tincidunt mi eget lorem
+					ultricies efficitur. Integer venenatis id tortor varius porttitor. Sed suscipit urna sit amet ligula
+					efficitur pharetra sed eget odio. Nam quis mi ligula. Cras tincidunt sem vel enim venenatis,
+					convallis consequat urna tempus.</p>
+				<p class="about_p">Donec ac felis vel nisl elementum venenatis quis id mi. Proin mollis sed justo at
+					tincidunt. Morbi scelerisque felis et risus pretium, et pellentesque metus ultrices. Morbi ac ante
+					iaculis, convallis nisl et, pharetra magna. Vestibulum vitae ex gravida sapien fermentum fermentum
+					et euismod elit. Vivamus at mi vel enim venenatis viverra in ut nibh. In dignissim ac mauris non
+					pretium. Donec pharetra arcu sit amet lacus varius sagittis. Vivamus vestibulum auctor nunc, vitae
+					sodales risus facilisis ac. Proin eros sem, mollis ac magna quis, tincidunt convallis mi. Maecenas
+					viverra orci nec elit molestie, id rhoncus turpis mattis. Praesent sapien dolor, semper eget
+					molestie eu, volutpat eget velit.</p>
+				<p class="about_p">Nulla facilisi. Pellentesque nec tortor vitae nibh commodo mollis. Sed id nibh non
+					augue tempus dignissim. Maecenas feugiat imperdiet tristique. Donec hendrerit, lectus eu fermentum
+					tempor, leo velit pretium tortor, at scelerisque felis nunc et massa. Curabitur facilisis ligula id
+					quam accumsan, id maximus nibh imperdiet. Donec auctor pretium purus, vel pulvinar odio tincidunt
+					vel. Donec sollicitudin vitae libero vitae lobortis. Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit. Sed egestas dui a diam finibus lacinia. Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit. </p>
+			</div>
+
+			<div class="about_img">
+
+				<div class="img_container">
+					<img src="./assets/business01.jpg" alt="">
+				</div>
+				<div class="img_container">
+					<img src="./assets/business02.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="products" id="nav-products">
+
+			<div class="products_heading">
+				<h3>Conheça Nossos Produtos</h3>
+				<p> A qualidade que você merece </p>
+			</div>
+
+
+			<div class="product_items">
+
+			<div class="product_expo">
+				<p class="product_desc">Cinto de couro clássico</p>
+				<div class="product_case">
+					<div class="product_img_container">
+						<div class="product_img">
+								<img src="assets/product01.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="product_expo">
+				<p class="product_desc">Cinto em couro natural</p>
+				<div class="product_case">
+					<div class="product_img_container">
+						<div class="product_img">
+								<img src="assets/product02.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="product_expo">
+				<p class="product_desc">Cinto de couro marrom</p>
+				<div class="product_case">
+					<div class="product_img_container">
+						<div class="product_img">
+								<img src="assets/product03.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="product_expo">
+				<p class="product_desc">Cinto de couro social fivela preta</p>
+				<div class="product_case">
+					<div class="product_img_container">
+						<div class="product_img">
+								<img src="assets/product04.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="product_expo">
+				<p class="product_desc">Cinto de couro boiadeiro</p>
+				<div class="product_case">
+					<div class="product_img_container">
+						<div class="product_img">
+								<img src="assets/product05.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="product_expo">
+				<p class="product_desc">Cinto de couro marrom slim</p>
+				<div class="product_case">
+					<div class="product_img_container">
+						<div class="product_img">
+								<img src="assets/product06.jpg" alt="">
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		</section>
+
+		<section class="contact" id="nav-contact">
+
+			<h3> Contato</h3>
+			<div class="contact_box">
+			<div class="contact_add">
+				<p>Scherer Couros Ltda.</p>
+				<p>Rua Guimarães Rosa, 777</p>
+				<p>Cidade/Unidade Federativa/Brasil</p>
+				<p>Fone:(xx)7 7777-7777</p>
+				<p>e-mail: algumacoisa@scherercouros.com</p>
+				<div id="map"></div>
+			</div>
+
+
+			<div class="formulary">
+
+				<form>
+					<input class="i_name" type="text" name="nome" placeholder="Seu nome">
+					<input class="i_tel" type="tel" name="telefone" placeholder="(xx) x xxxx-xxxx">
+					<input class="i_mail" type="email" name="mail" placeholder="Seu e-mail">
+					<textarea class="i_text" rows="5" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+					<input class="i_submit" type="submit" name="enviar" value="enviar">
+				</form>
+				
+			</div>
+		</div>
+
+		</section>
+
+
+	</main>
+
+	<footer>
+
+		<div class="logo_bot_container">
+			<img src="./assets/sc_white.svg" alt="">
+		</div>
+		<div class="social">
+		<p class="social_heading">Nossas redes</p>
+		<div class="social_wrap">
+		<a href="https://facebook.com/" target="blank"><img src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" /></a>	
+		<a href="https://instagram.com/" target="blank"><img src="https://img.icons8.com/fluency-systems-regular/50/000000/instagram-new--v1.png" /></a>	
+		<a href="https://youtube.com/" target="blank"><img src="https://img.icons8.com/material-rounded/50/000000/youtube-play.png" /></a>	
+	</div>
+		</div>
+	</footer>
+
+
+
+</body>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+
+<script>
+	var map = L.map('map').setView([-27.2291011, -53.8705532,13.92], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+L.marker([-27.2291011, -53.8705532,13.92]).addTo(map)
+    .bindPopup('Nos encontre aqui!.')
+    .openPopup();
+</script>
+
+</html>
